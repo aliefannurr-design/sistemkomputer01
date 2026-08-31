@@ -157,7 +157,7 @@
                 <h1 class="font-extrabold text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-300 to-pink-400">
                     CompuMatch SMP
                 </h1>
-                <p class="text-xs text-slate-400 font-medium">Petualangan Hardware & Perifer Komputer</p>
+                <p class="text-xs text-slate-400 font-medium">Petualangan Hardware & Peripheral Komputer</p>
             </div>
         </div>
 
@@ -190,7 +190,7 @@
                         Uji Pengetahuan <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-400">Sistem Komputer</span> Kamu!
                     </h2>
                     <p class="text-slate-300 text-sm md:text-base leading-relaxed">
-                        Tahukah kamu mana perangkat yang bertugas memasukkan data, mengolah, menampilkan hasil, hingga perangkat tambahan tambahan (perifer)? Pilih mode permainan dan kumpulkan skor tertinggi!
+                        Tahukah kamu mana perangkat yang bertugas memasukkan data, mengolah, menampilkan hasil, hingga perangkat tambahan tambahan (Peripheral)? Pilih mode permainan dan kumpulkan skor tertinggi!
                     </p>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                             </div>
                             <h4 class="text-lg font-bold text-slate-100 group-hover:text-purple-300 transition">Mode Categorization (Keranjang)</h4>
                             <p class="text-xs text-slate-400 leading-relaxed">
-                                Kelompokkan puluhan hardware komputer ke keranjang <strong>Input, Proses, Output, Storage,</strong> atau <strong>Perifer</strong> secara tepat. Bisa Drag & Drop atau Klik!
+                                Kelompokkan puluhan hardware komputer ke keranjang <strong>Input, Proses, Output, Storage,</strong> atau <strong>Peripheral</strong> secara tepat. Bisa Drag & Drop atau Klik!
                             </p>
                         </div>
                         <div class="flex items-center justify-between pt-2 text-xs font-semibold text-purple-400 group-hover:text-purple-300">
@@ -226,7 +226,7 @@
                             </div>
                             <h4 class="text-lg font-bold text-slate-100 group-hover:text-blue-300 transition">Mode Tebak Cepat (Trivia Waktu)</h4>
                             <p class="text-xs text-slate-400 leading-relaxed">
-                                Jawab pertanyaan seru seputar perangkat keras dan perifer komputer sebelum waktu habis. Melatih kecepatan berpikir dan analisis!
+                                Jawab pertanyaan seru seputar perangkat keras dan Peripheral komputer sebelum waktu habis. Melatih kecepatan berpikir dan analisis!
                             </p>
                         </div>
                         <div class="flex items-center justify-between pt-2 text-xs font-semibold text-blue-400 group-hover:text-blue-300">
@@ -275,7 +275,7 @@
                         <p class="text-slate-400">Menyimpan data (permanen/sementara). (HDD, SSD, Flashdisk, SD Card, CD/DVD)</p>
                     </div>
                     <div class="bg-slate-800/80 p-3 rounded-xl border border-pink-500/20">
-                        <div class="font-bold text-pink-400 mb-1"><i class="fa-solid fa-plug"></i> PERIFER</div>
+                        <div class="font-bold text-pink-400 mb-1"><i class="fa-solid fa-plug"></i> Peripheral</div>
                         <p class="text-slate-400">Perangkat tambahan/pendukung luar. (Router Wi-Fi, UPS, Bluetooth Dongle, TV Tuner)</p>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
         <section id="screen-materi" class="hidden space-y-6 animate-fadeIn">
             <div class="flex items-center justify-between">
                 <div>
-                    <h2 class="text-2xl font-extrabold text-slate-100">Kamus Hardware & Perifer Komputer</h2>
+                    <h2 class="text-2xl font-extrabold text-slate-100">Kamus Hardware & Peripheral Komputer</h2>
                     <p class="text-xs text-slate-400">Panduan lengkap materi Sistem Komputer untuk siswa SMP</p>
                 </div>
                 <button onclick="showScreen('home')" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-xl font-semibold border border-slate-700 flex items-center gap-2">
@@ -308,8 +308,8 @@
                 <button onclick="switchMateriTab('storage')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center gap-2 whitespace-nowrap">
                     <i class="fa-solid fa-hard-drive"></i> Perangkat Storage
                 </button>
-                <button onclick="switchMateriTab('perifer')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center gap-2 whitespace-nowrap">
-                    <i class="fa-solid fa-plug"></i> Perangkat Perifer
+                <button onclick="switchMateriTab('Peripheral')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center gap-2 whitespace-nowrap">
+                    <i class="fa-solid fa-plug"></i> Perangkat Peripheral
                 </button>
             </div>
 
@@ -423,12 +423,12 @@
                     <div class="basket-items mt-3 space-y-2 flex-grow flex flex-col justify-end"></div>
                 </div>
 
-                <!-- Perifer Basket -->
-                <div id="basket-perifer" onclick="handleBasketClick('perifer')" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event, 'perifer')" class="basket-box bg-slate-900/80 border-2 border-dashed border-pink-500/40 hover:border-pink-400 rounded-2xl p-4 transition-all duration-200 flex flex-col justify-between min-h-[260px]">
+                <!-- Peripheral Basket -->
+                <div id="basket-Peripheral" onclick="handleBasketClick('Peripheral')" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event, 'Peripheral')" class="basket-box bg-slate-900/80 border-2 border-dashed border-pink-500/40 hover:border-pink-400 rounded-2xl p-4 transition-all duration-200 flex flex-col justify-between min-h-[260px]">
                     <div class="space-y-2">
                         <div class="flex items-center justify-between">
                             <span class="font-extrabold text-pink-400 text-sm flex items-center gap-2">
-                                <i class="fa-solid fa-plug"></i> PERIFER
+                                <i class="fa-solid fa-plug"></i> Peripheral
                             </span>
                             <span class="basket-count text-xs px-2 py-0.5 rounded-full bg-pink-500/20 text-pink-300 font-bold">0</span>
                         </div>
@@ -543,7 +543,7 @@
 
     <!-- DATA HARDWARE DATABASE & GAME LOGIC -->
     <script>
-        // Data Perangkat Komputer SMP Lengkap (Input, Proses, Output, Storage, Perifer)
+        // Data Perangkat Komputer SMP Lengkap (Input, Proses, Output, Storage, Peripheral)
         const HARDWARE_DATABASE = [
             // PERANGKAT INPUT
             { id: 'dev-1', name: 'Keyboard', category: 'input', icon: 'fa-keyboard', color: 'text-blue-400', desc: 'Perangkat input utama berisi tombol huruf, angka, dan fungsi untuk memasukkan data teks/perintah ke komputer.' },
@@ -577,11 +577,11 @@
             { id: 'dev-23', name: 'Kartu Memori (SD)', category: 'storage', icon: 'fa-sd-card', color: 'text-amber-400', desc: 'Penyimpan data tipis dan kecil yang biasa digunakan pada kamera, HP, atau komputer.' },
             { id: 'dev-24', name: 'CD / DVD ROM', category: 'storage', icon: 'fa-compact-disc', color: 'text-amber-400', desc: 'Media penyimpanan optik yang dibaca menggunakan sinar laser.' },
 
-            // PERANGKAT PERIFER (PERIPHERALS)
-            { id: 'dev-25', name: 'Modem / Router', category: 'perifer', icon: 'fa-wifi', color: 'text-pink-400', desc: 'Perangkat jaringan tambahan luar untuk menghubungkan komputer ke jaringan internet.' },
-            { id: 'dev-26', name: 'UPS (Power Backup)', category: 'perifer', icon: 'fa-car-battery', color: 'text-pink-400', desc: 'Perangkat penstabil dan penyimpan listrik cadangan agar komputer tidak mendadak mati saat mati lampu.' },
-            { id: 'dev-27', name: 'Bluetooth Adapter', category: 'perifer', icon: 'fa-brands fa-bluetooth-b', color: 'text-pink-400', desc: 'Perangkat tambahan luar (dongle USB) untuk memberikan koneksi nirkabel Bluetooth ke PC.' },
-            { id: 'dev-28', name: 'Card Reader Ext.', category: 'perifer', icon: 'fa-square-share-nodes', color: 'text-pink-400', desc: 'Perangkat tambahan eksternal untuk membaca data dari kartu memori SD/MicroSD.' }
+            // PERANGKAT Peripheral (PERIPHERALS)
+            { id: 'dev-25', name: 'Modem / Router', category: 'Peripheral', icon: 'fa-wifi', color: 'text-pink-400', desc: 'Perangkat jaringan tambahan luar untuk menghubungkan komputer ke jaringan internet.' },
+            { id: 'dev-26', name: 'UPS (Power Backup)', category: 'Peripheral', icon: 'fa-car-battery', color: 'text-pink-400', desc: 'Perangkat penstabil dan penyimpan listrik cadangan agar komputer tidak mendadak mati saat mati lampu.' },
+            { id: 'dev-27', name: 'Bluetooth Adapter', category: 'Peripheral', icon: 'fa-brands fa-bluetooth-b', color: 'text-pink-400', desc: 'Perangkat tambahan luar (dongle USB) untuk memberikan koneksi nirkabel Bluetooth ke PC.' },
+            { id: 'dev-28', name: 'Card Reader Ext.', category: 'Peripheral', icon: 'fa-square-share-nodes', color: 'text-pink-400', desc: 'Perangkat tambahan eksternal untuk membaca data dari kartu memori SD/MicroSD.' }
         ];
 
         // State Management
@@ -800,7 +800,7 @@
         }
 
         function clearBaskets() {
-            const categories = ['input', 'proses', 'output', 'storage', 'perifer'];
+            const categories = ['input', 'proses', 'output', 'storage', 'Peripheral'];
             categories.forEach(cat => {
                 document.querySelector(`#basket-${cat} .basket-items`).innerHTML = '';
                 document.querySelector(`#basket-${cat} .basket-count`).innerText = '0';
@@ -856,7 +856,7 @@
             
             quizQuestions = shuffledDevs.map(dev => {
                 // Create 4 category choices
-                const allCategories = ['input', 'proses', 'output', 'storage', 'perifer'];
+                const allCategories = ['input', 'proses', 'output', 'storage', 'Peripheral'];
                 return {
                     device: dev,
                     question: `Manakah kategori yang benar untuk perangkat hardware <strong>"${dev.name}"</strong>?`,
